@@ -29,10 +29,11 @@ because they can be:
   on an IRC network.
 
 * UID &mdash; an unsigned 48-bit integer which uniquely identifies a user
-  on an IRC server.
+  on an IRC server. UID '0' is reserved and should not be assigned to users.
 
-* UUID &mdash; an unsigned 64-bit integer which uniquely identifies a user
-  on an IRC network. The first 16 bits are the SID and the rest is the UID.
+* UUID &mdash; an unsigned 64-bit integer which uniquely identifies an entity
+  on an IRC network. The first 16 bits are the SID and the rest is the UID. If
+  the UID is '0' then the UUID identifies a server rather than a user.
 
 ## Endianness
 
