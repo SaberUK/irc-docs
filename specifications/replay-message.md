@@ -58,11 +58,3 @@ There are two main reasons for this capability.
 ```
 [C] NOTICE Adam :I hate turtles.
 ```
-
-## IRCv3
-
-This capability has been adopted in IRCv3.2 under the name `self-message`. You
-can find this on the [IRCv3 website][IRCv3]. It is strongly recommended that
-implementers use that capability for future development.
-
-[IRCv3]: https://github.com/ircv3/ircv3-specifications/blob/master/extensions/self-message-3.2.md "IRCv3 `self-message` Specification"
