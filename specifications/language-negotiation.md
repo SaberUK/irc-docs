@@ -1,6 +1,10 @@
 Note: This specification was proposed for inclusion with IRCv3.3 but was
 rejected due to lack of interest.
 
+April 2018 Update: Recently some interest in language negotiation has appeared
+and a variant of this specification has been implemented by Oragono so I might
+resubmit this specification for IRCv3 approval soon.
+
 # IRCv3.3 Language Negotiation
 
 Copyright (C) 2014-2015 Peter "SaberUK" Powell &lt;petpow@saberuk.com&gt;
